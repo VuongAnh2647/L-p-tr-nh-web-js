@@ -3,56 +3,140 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Giới thiệu bản thân</title>
+    <title>Natural beauty</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src='main.js'></script>
 </head>
-<body>
-    <img width="200" src="https://scontent.fhan2-2.fna.fbcdn.net/v/t39.30808-6/265535985_421242836390925_5300668094547142612_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=tC256E-wBmsAX8css_v&_nc_ht=scontent.fhan2-2.fna&oh=00_AT8Xe0GPg55vRsKcj6FB2KXte4I3HLxLTEaIbemCSS4jDQ&oe=623A3A89" alt="">
-    <h2>
-        Chào các bạn nha !
-    </h2>
-    
-    <div>
-        <p>
-            Sở thích của mình là:
-        </p>
-        <ul>
-            <li>Xem phim</li>
-            <li>Nghe nhạc</li>
-            <li>Nấu ăn</li>
-        </ul>
+<body >
+    <header>
+        <div class="logo">
+            <img src="anh/logo.png">
+        </div>
+        <div class="menu">
+            <li> <a href="">SALE</a> </li>
+            <li> <a href=""> NEW</a></li>
+            <li> <a href="">CHĂM SÓC DA</a>
+                <ul class="sub-menu">
+                    <li> <a href="">Tẩy Trang</a></li>
+                    <li> <a href="">Sữa Rửa Mặt</a></li>
+                    <li> <a href="">Tẩy Tế Bào Chết</a></li>
+                    <li> <a href="">Mặt Nạ</a></li>
+                    <li> <a href="">Toner</a></li>
+                    <li> <a href="">Serum/Tinh chất</a></li>
+                </ul>
+            </li>
+            <li><a href="">CHĂM SÓC TÓC VÀ DA ĐẦU</a>
+                <ul class="sub-menu">
+                    <li> <a href="">Dầu Gội</a></li>
+                    <li> <a href="">Dầu Xả</a></li>
+                    <li> <a href="">Kem Ủ Tóc</a></li>
+                    <li> <a href="">Dưỡng Tóc</a></li>
+                    <li> <a href="">Thuốc Nhuộm Tóc</a></li>
+                </ul>
+            </li>
+            <li><a href="">TRANG ĐIỂM</a>
+                <ul class="sub-menu">
+                    <li> <a href="">Trang Điểm Mặt</a>
+                        <ul>
+                                <li> <a href="">Kem Nền</a></li>
+                                <li> <a href="">Kem Lót</a></li>
+                                <li> <a href="">Che Khuyết Điểm</a></li>
+                                <li> <a href="">Phấn Má Hồng</a></li>
+                                <li> <a href="">Phấn Nước</a></li>
+                                <li> <a href="">Phấn phủ</a></li>
+                                <li> <a href="">Tạo Khối</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="">Trang Điểm Mắt</a>
+                        <ul>
+                            <li> <a href="">Kẻ Chân Mày</a></li>
+                            <li> <a href="">Kẻ Mắt</a></li>
+                            <li> <a href="">Phấn Mắt</a></li>
+                            <li> <a href="">Mascara</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="">Son</a>
+                        <ul>
+                            <li> <a href="">Son Thỏi</a></li>
+                            <li> <a href="">Son Kem</a></li>
+                            <li> <a href="">Son Bóng</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">THÔNG TIN</a></li>
+        </div>
+        <div class="others">
+            <li><input placeholder="Tìm kiếm" type="text"> <i class="fa-solid fa-magnifying-glass"></i></li>
+            <li> <a class="fa-solid fa-user-tie" href=""></a></li>
+            <li> <a class="fa-solid fa-bag-shopping" href=""></a></li>
+        </div>
+    </header>
+    <section id="Slider">
+        <div class="aspect-ratio">
+            <img src="anh/slide1.jpg">
+            <img src="anh/slide2.jpg">
+            <img src="anh/slide3.jpg">
+            <img src="anh/slide4.jpg">
+        </div>
+        <div class="dot-container">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </section>
+<!----------------------------footer---------------------------->
+    <div class="footer-top">
+        <li> <a href="">im</a></li>
     </div>
-    <div>
-        <h2>
-            Các bạn có câu hỏi gì cho mình không?
-        </h2>
-        <form>
-            <input type="text" placeholder="Điều cần hỏi"/>
-            <button>Gửi câu hỏi</button> <br>
-            <label>Bạn thích nghe nhạc gì?</label><br>
-            <select >
-                <option value="US">Nhạc US</option> <br>
-                <option value="Kpop">Nhạc kpop</option><br>
-                <option value="Vpop">Nhạc Vpop</option><br>
-                <option value="Cpop">Nhạc Trung</option><br>
-            </select>
-            <div>
-                <label >Bạn ăn được cay không ?</label>
-                <input type="radio" name="ăn cay">Có <input type="radio" name="ăn cay">Không
-            </div>
-
-        </form>
-    </div>
-    <footer>
-        <h3>
-            Thông tin liên lạc của mình:
-        </h3>
-        <ul>
-            <li>Email: anh382001@gmail.com</li>
-            <li>Facebook: <a href="https://www.facebook.com/profile.php?id=100055156367687">VuongAnh</a> </li>
-        </ul>
-    </footer>
 </body>
+<script>
+    const header = document.querySelector("header")
+    window.addEventListener("scroll",function(){
+        x = window.pageYOffset
+        if(x>0){
+            header.classList.add("sticky")
+        }
+        else{
+            header.classList.remove("sticky")
+        }
+    })
+
+
+
+
+
+    const imgPosition = document.querySelectorAll(".aspect-ratio img")
+    const imgContainer=document.querySelector('.aspect-ratio')
+    const dotItem= document.querySelectorAll('.dot')
+    let imgNumber=imgPosition.length
+    let index=0
+    //console.log(imgPosition)
+
+    imgPosition.forEach(function(image,index){
+        image.style.left= index*100 +"%"
+        dotItem[index].addEventListener("click",function(){
+            slider(index)
+        })
+    })
+    function imgSlide(){
+        index++;
+        if(index>=imgNumber){
+            index=0
+        }
+        slider(index)
+    }
+    function slider(index){
+        imgContainer.style.left ="-"+index*100+"%"
+        const dotActive = document.querySelector('.active')
+        dotActive.classList.remove("active")
+        dotItem[index].classList.add("active")
+    }
+    setInterval(imgSlide,5000)
+
+
+</script>
 </html>
